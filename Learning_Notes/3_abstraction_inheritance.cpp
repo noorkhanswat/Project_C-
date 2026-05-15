@@ -39,4 +39,4 @@ In this code, we have defined a base class named 'Shape' with two protected data
 'width' and 'height', and two public member functions 'setWidth' and 'setHeight' to set the values of these data members.
 We have also defined a derived class named 'Rectangle' that inherits from the base class 'Shape' using public inheritance. The derived class has a member function 'getArea' that calculates and returns the area of the rectangle by accessing the protected members 'width' and 'height' of the base class.
 In the 'main' function, we create an object of the derived class 'Rectangle' named 'rect'. We then call the member functions of the base class to set the width and height of the rectangle, and finally call the member function of the derived class to get and display the area      of the rectangle on the console.
-*/      
+*/  
